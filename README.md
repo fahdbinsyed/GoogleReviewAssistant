@@ -1,11 +1,13 @@
-# NovoBytes review assistant
+# Royal Textiles review assistant
 
-Mobile-first React + Tailwind CSS app built with Vite. Draft generation runs locally using deterministic templates; no AI service or backend is required. Notes are kept in memory only.
+React + Tailwind CSS single-page app for Royal Textiles, Parangipettai, with English and Tamil interfaces and local template-based draft generation.
 
-Run `npm install`, then `npm run dev`. Run `npm test` and `npm run build` for validation.
+Run `npm install`, `npm run dev`, `npm test`, and `npm run build`.
 
-Edit `src/config.js` to change branding. Copy `.env.example` to `.env.local`, set `VITE_GOOGLE_PLACE_ID` to the business's real Place ID, and optionally set `VITE_FEEDBACK_EMAIL`. Rebuild after changing configuration. No real review destination or private-feedback recipient was supplied, so the demo explicitly handles unconfigured destinations. Private feedback opens an email draft; it does not claim to send or store submissions.
+`src/config.js` contains the verified Google review-dialogue URL and private-feedback address sales.royaltextiles@gmail.com. The supplied Google share link resolves to Royal textiles, #16 Mettu Street, Parangipettai. The review URL uses that listing's observed Google review-dialogue identifier.
 
-All ratings, including 3 stars, can generate editable drafts and proceed to Google. Ratings of 1 or 2 also offer private feedback without suppressing public reviews. This avoids selective positive-review solicitation, which violates Google's contribution policy.
+The original supplied logo is in `public/royal-textiles-logo.jpeg`. Translation strings are in `src/translations.js`; stable highlight IDs keep selections intact when switching languages. Existing edited drafts remain unchanged when switching language. Return to the form and create a new draft to use the newly selected language. Personal notes remain verbatim and are not automatically translated.
 
-Clipboard access requires HTTPS or localhost and browser permission. Copy failures leave the editable draft and a direct configured Google link available. The main button awaits clipboard success before navigating, preventing navigation from interrupting the copy operation. Google requires the customer to paste, rate, and submit manually.
+Private feedback opens an email draft addressed to the shop. Customers must send it in their email app. Nothing is automatically sent or stored. All ratings may write a public review; ratings 1–2 also offer private feedback.
+
+Clipboard access requires HTTPS or localhost. Copy succeeds before navigation. A direct Google review link remains available if copying is blocked. Customers paste their text, choose a rating and submit on Google themselves.
