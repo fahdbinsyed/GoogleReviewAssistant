@@ -8,6 +8,7 @@ Run `npm install`, `npm run dev`, `npm test`, and `npm run build`.
 
 The original supplied logo is in `public/royal-textiles-logo.jpeg`. Translation strings are in `src/translations.js`; stable highlight IDs keep selections intact when switching languages. Existing edited drafts remain unchanged when switching language. Return to the form and create a new draft to use the newly selected language. Personal notes remain verbatim and are not automatically translated.
 
-Private feedback opens an email draft addressed to the shop. Customers must send it in their email app. Nothing is automatically sent or stored. All ratings may write a public review; ratings 1–2 also offer private feedback.
+Private feedback opens an email draft addressed to the shop. Customers must send it in their email app. Nothing is automatically sent or stored. All ratings may write a public review; selecting 1, 2, or 3 stars opens private feedback first, with a visible option to continue to a public review. Ratings 4–5 stay on the review form.
 
 Clipboard access requires HTTPS or localhost. Copy succeeds before navigation. A direct Google review link remains available if copying is blocked. Customers paste their text, choose a rating and submit on Google themselves.
+

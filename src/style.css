@@ -5,3 +5,66 @@
 :root{color:#173d3b;background:#faf3e9}.brand{letter-spacing:0}.header-logo{width:64px;height:64px;border-radius:50%;object-fit:cover}.brand-type{font-family:Georgia,'Nirmala UI',serif;font-size:23px;font-weight:500;line-height:1.3}.brand-type small{display:block;font-family:Arial,'Nirmala UI',sans-serif;font-size:8px;letter-spacing:2.4px;color:#a37d3d;margin-top:5px}.language-toggle{display:flex;flex-shrink:0;border:1px solid #ddd2bc;border-radius:24px;padding:4px;background:#fffaf3;gap:3px}.language-toggle button{padding:8px 12px;min-height:36px;border-radius:20px;font-size:11px;color:#66746d}.language-toggle button[aria-pressed=true]{background:#193e3c;color:#fff}.eyebrow{color:#98753a}.eyebrow span{background:#b58d46}h1{color:#193e3c;font-size:64px}h1 span{color:#ae8642}.intro-copy{max-width:365px;color:#737b6e}.royal-emblem{margin:23px 0;width:205px;display:flex;flex-direction:column;align-items:center;gap:12px}.royal-emblem img{width:180px;height:180px;border-radius:50%;box-shadow:0 8px 35px #b58d4610}.royal-emblem>span{font-size:9px;letter-spacing:3px;color:#9d814d}.review-card{background:#fffdf9;border-color:#e7decd}.primary{background:#193e3c}.primary:hover{background:#0d302e}.chip.selected{background:#f4ecd9;border-color:#c6ad75;color:#65522d}.chip:hover{background:#f8f1e4}.result-icon,.steps .active i{background:#f4ecd9;color:#9b7839}.card-footer{background:#faf7ef}.small-brand{line-height:1.7;color:#8b7854}.notes-hint{font-size:9px;color:#8b8f7f;margin-top:4px;line-height:1.7}.feedback-email{display:block;text-align:center;font-size:11px;color:#627568;margin:14px 0;overflow-wrap:anywhere}.language-draft-note{font-size:11px;line-height:1.8;padding:12px;background:#f5edde;border-radius:8px;margin-top:10px}.language-draft-note button{display:flex;align-items:center;gap:7px;text-decoration:underline;margin-top:5px}.language-ta{font-family:'Nirmala UI','Latha',sans-serif}.language-ta h1{font-family:inherit;font-size:38px;line-height:1.6;letter-spacing:0}.language-ta h2{font-size:19px;line-height:1.8;letter-spacing:0}.language-ta .brand-type{font-family:inherit;font-size:18px}.language-ta .brand-type small{letter-spacing:.4px}.language-ta .eyebrow{letter-spacing:.7px;line-height:1.8}.language-ta .section-heading{flex-wrap:wrap;gap:8px}.language-ta .note-label{flex-wrap:wrap;line-height:1.8}.language-ta .chip{font-size:11px;min-height:42px}.language-ta .primary,.language-ta .secondary{line-height:1.8;font-size:11px}.primary svg,.secondary svg,.chip svg{flex-shrink:0}.language-ta .steps{gap:8px;font-size:10px}.language-ta .time-pill{white-space:nowrap}.language-ta .toast{white-space:normal;width:max-content;max-width:90vw;line-height:1.8}.language-ta .button-note{font-size:10px;line-height:1.9}.language-ta .subcopy{line-height:1.9}.language-ta .intro-copy{line-height:2}.page-footer{border-color:#e7ddca}
 @media(max-width:1023px){.royal-emblem{display:none}.intro-copy{margin-left:auto;margin-right:auto}h1{font-size:46px}}
 @media(max-width:540px){.header-logo{width:44px;height:44px}.brand-type{font-size:17px}.brand-type small{font-size:6px;letter-spacing:1.5px}.language-toggle button{padding:7px 9px;font-size:10px}.language-ta .brand-type{font-size:12px;max-width:145px}.language-ta .brand-type small{font-size:8px}.language-ta h1{font-size:28px}.language-ta h2{font-size:18px}.language-ta .small-brand{font-size:8px;letter-spacing:.1px}.language-ta .steps{font-size:9px}.language-ta .steps>span{gap:4px}.language-ta .intro-copy{font-size:12px}h1{font-size:42px}.primary{min-height:48px}.brand{gap:8px}.page-footer{line-height:1.8}.review-card{min-width:0}}
+
+/* Readable sizing and generous touch targets in both languages. */
+:is(.language-en,.language-ta){font-size:18px;line-height:1.65}
+:is(.language-en,.language-ta) .intro-copy{font-size:18px;color:#46574f}
+:is(.language-en,.language-ta) h2{font-size:28px;line-height:1.5;letter-spacing:0}
+:is(.language-en,.language-ta) h3,:is(.language-en,.language-ta) .note-label{font-size:19px;line-height:1.6}
+:is(.language-en,.language-ta) .subcopy,:is(.language-en,.language-ta) .rating-caption{font-size:18px;color:#46574f}
+:is(.language-en,.language-ta) .chip{font-size:18px;min-height:52px;padding:11px 14px;line-height:1.6;color:#435448}
+:is(.language-en,.language-ta) .chip.selected{color:#59431b;border-color:#9d7a39}
+:is(.language-en,.language-ta) .chip svg{width:20px;height:20px}
+:is(.language-en,.language-ta) .note-wrap textarea,:is(.language-en,.language-ta) .draft-text{font-size:18px;line-height:1.85;color:#243e34;min-height:145px;padding:15px}
+:is(.language-en,.language-ta) .note-wrap textarea{padding-bottom:35px}
+:is(.language-en,.language-ta) textarea::placeholder{color:#626b5b;opacity:1}
+:is(.language-en,.language-ta) .primary,:is(.language-en,.language-ta) .secondary{font-size:18px;line-height:1.65;min-height:58px;padding:15px;gap:12px}
+:is(.language-en,.language-ta) .secondary{color:#304f3d;border-color:#8d9c86}
+:is(.language-en,.language-ta) .primary svg,:is(.language-en,.language-ta) .secondary svg{width:22px;height:22px}
+:is(.language-en,.language-ta) .section-heading{flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+:is(.language-en,.language-ta) .note-label{flex-wrap:wrap}
+:is(.language-en,.language-ta) .section-heading>span,:is(.language-en,.language-ta) .note-label>span,:is(.language-en,.language-ta) .notes-hint,:is(.language-en,.language-ta) .button-note,:is(.language-en,.language-ta) .draft-hint,:is(.language-en,.language-ta) .card-footer,:is(.language-en,.language-ta) .feedback-offer,:is(.language-en,.language-ta) .error,:is(.language-en,.language-ta) .language-draft-note{font-size:16px;color:#53604e;line-height:1.8}
+:is(.language-en,.language-ta) .back,:is(.language-en,.language-ta) .reset,:is(.language-en,.language-ta) .google-link,:is(.language-en,.language-ta) .feedback-email{font-size:16px;color:#315441;line-height:1.8;min-height:48px;overflow-wrap:anywhere}
+:is(.language-en,.language-ta) .feedback-email{display:flex;justify-content:center;align-items:center}
+:is(.language-en,.language-ta) .draft-rating{flex-wrap:wrap;align-items:center}
+:is(.language-en,.language-ta) .draft-rating span{font-size:16px;color:#53604e}
+:is(.language-en,.language-ta) .steps{font-size:16px;gap:12px;color:#5d6655;align-items:flex-start}
+:is(.language-en,.language-ta) .steps>span{white-space:normal;flex:1;align-items:flex-start;gap:8px}
+:is(.language-en,.language-ta) .steps>div{flex:0 0 15px;margin-top:13px}
+:is(.language-en,.language-ta) .steps i{width:26px;height:26px;flex-shrink:0;font-size:14px}
+:is(.language-en,.language-ta) .small-brand{font-size:13px;letter-spacing:.5px;color:#71562c}
+:is(.language-en,.language-ta) .time-pill{font-size:14px;color:#56624c;white-space:nowrap}
+:is(.language-en,.language-ta) .card-top{align-items:flex-start;gap:12px}
+:is(.language-en,.language-ta) .note-wrap>span{font-size:14px;color:#5b6652}
+:is(.language-en,.language-ta) .language-toggle button{font-size:16px;min-height:46px;padding:9px 14px}
+:is(.language-en,.language-ta) .rating-group{gap:8px;justify-content:space-between}
+:is(.language-en,.language-ta) .star-button{min-height:48px;min-width:44px;flex:1;padding:3px;color:#8b9686}
+:is(.language-en,.language-ta) .star-button svg{width:44px;height:44px;max-width:100%;margin:auto}
+:is(.language-en,.language-ta) .star-button.chosen{color:#967028}
+:is(.language-en,.language-ta) .rating-caption.selected{color:#52653c}
+:is(.language-en,.language-ta) .intro-bottom p{font-size:16px;color:#53604e}
+:is(.language-en,.language-ta) .page-footer{font-size:14px;color:#53604e;gap:20px;line-height:1.8;flex-wrap:wrap}
+:is(.language-en,.language-ta) .toast{font-size:17px;white-space:normal;max-width:calc(100vw - 32px);width:max-content}
+:is(.language-en,.language-ta) .toast button{display:grid;place-items:center;min-width:44px;min-height:44px}
+:is(.language-en,.language-ta) .eyebrow{font-size:14px;line-height:1.8;color:#85632c}
+@media(max-width:540px){
+ :is(.language-en,.language-ta) header{flex-wrap:wrap;justify-content:center;gap:16px}
+ :is(.language-en,.language-ta) .brand{width:100%;justify-content:center}
+ :is(.language-en,.language-ta) .brand-type{font-size:24px;max-width:none}
+ .language-ta .brand-type{font-size:20px}
+ :is(.language-en,.language-ta) .brand-type small{font-size:12px;letter-spacing:1px;color:#85632c}
+ :is(.language-en,.language-ta) .header-logo{width:60px;height:60px}
+ :is(.language-en,.language-ta) .review-card{padding:24px 18px 0}
+ :is(.language-en,.language-ta) .card-footer{margin-left:-18px;margin-right:-18px;align-items:flex-start}
+ :is(.language-en,.language-ta) main{padding-left:14px;padding-right:14px;padding-top:12px}
+ :is(.language-en,.language-ta) h2{font-size:26px}
+ .language-ta h2{font-size:24px}
+ :is(.language-en,.language-ta) .steps{font-size:15px;gap:6px}
+ :is(.language-en,.language-ta) .steps>div{flex-basis:8px}
+ :is(.language-en,.language-ta) .small-brand{font-size:12px}
+ :is(.language-en,.language-ta) .rating-group{gap:3px}
+ :is(.language-en,.language-ta) .page-footer{display:block;text-align:center}
+ :is(.language-en,.language-ta) .page-footer>span{justify-content:center;max-width:none;text-align:center;margin:8px 0}
+}
+.action-label{min-width:0;flex:1;overflow-wrap:anywhere}
+:is(.language-en,.language-ta) .primary,:is(.language-en,.language-ta) .secondary{overflow-wrap:anywhere}
