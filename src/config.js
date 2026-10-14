@@ -1,1 +1,2 @@
-export const business={name:'Royal Textiles',tamilName:'ராயல் டெக்ஸ்டைல்ஸ்',feedbackEmail:'sales.royaltextiles@gmail.com',reviewUrl:'https://www.google.com/search?q=Royal+textiles+Parangipettai&kgmid=/g/11g6rjqdv4#lrd=0x3a54ea8dfd45ea9b:0x744335dfff67f1c,3,,,,'};
+export const business={name:'Royal Textiles',tamilName:'ராயல் டெக்ஸ்டைல்ஸ்',feedbackEmail:'sales.royaltextiles@gmail.com',reviewUrl:'https://g.page/r/CRx_9v9dM0QHEAE/review'};
+
