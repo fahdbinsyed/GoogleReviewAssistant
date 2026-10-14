@@ -13,3 +13,5 @@ Private feedback opens an email draft addressed to the shop. Customers must send
 Clipboard access requires HTTPS or localhost. Copy succeeds before navigation. A direct Google review link remains available if copying is blocked. Customers paste their text, choose a rating and submit on Google themselves.
 
 
+
+Drafts use varied local English/Tamil phrasing and shuffled selected-highlight sentences. Customer notes appear first and retain their original wording. Try another wording avoids an identical consecutive draft, and Undo restores the prior text and language. These are finite wording alternatives, not an AI API or a guarantee of uniqueness; customers should edit the result to reflect their own visit. No unselected purchase details, staff names, or recommendations are generated.
